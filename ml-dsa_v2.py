@@ -46,7 +46,7 @@ with open("vectores.txt") as filevectores:
   print("El tiempo promedio de firma",prom_firma, "en seg")
   print("El tiempo promedio de verificacion",prom_ver, "en seg")
   print("El tiempo total aproximado del algoritmo ML-DSA: ", prom_firma+prom_ver, "en seg")
-  #print(validacion.count('1'))
+  print(validacion.count('1'))
   if validacion.count('1') == "505":
     print(validacion.count('1'))
     print("Firmas validas")
@@ -54,8 +54,8 @@ with open("vectores.txt") as filevectores:
     print("Existe alguna firma invalida")
   #print("El tiempo tota aproximado de un intercambio entre Bob y Alice ",tiemposEncapsulamientoMLKEM[0]+tiemposDesencapsulamientoMLKEM[0], "en seg")
    # Guardar los promedios en un archivo
-  with open("tiempos_ML-DSA.txt", "w") as f:
-        f.write(f"{prom_firma}\n")
-        f.write(f"{prom_ver}\n")
-        f.write(f"{prom_firma+prom_ver}\n")
+ # with open("tiempos_ML-DSA.txt", "w") as f:
+  #      f.write(f"{prom_firma}\n")
+   #     f.write(f"{prom_ver}\n")
+    #    f.write(f"{prom_firma+prom_ver}\n")
 

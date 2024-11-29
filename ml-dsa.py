@@ -22,6 +22,7 @@ def MLDSAdifr(mensaje):
     tiemposVerificacionMLDSAp.append(tiempo_final - tiempo_inicial)
   except (ValueError):
     tiemposVerificacionMLDSAp.append(tiempo_final - tiempo_inicial)
+    print("Firma Invalida")
 
 with open("vectores.txt") as filevectores:
   for _ in range(5):
@@ -29,6 +30,13 @@ with open("vectores.txt") as filevectores:
     for linea in filevectores:
       linea=linea.rstrip("\n")
       MLDSAdifr(linea)
-    
-  print("El promedio de firma",np.mean(tiemposFirmadoMLDSAp), "en seg")
-  print("El promedio de verificacion",np.mean(tiemposVerificacionMLDSAp), "en seg")
+  prom_firma= np.mean(tiemposFirmadoMLDSAp)
+  prom_ver= np.mean(tiemposVerificacionMLDSAp)
+  print("El tiempo promedio de firma",prom_firma, "en seg")
+  print("El tiempo promedio de verificacion",prom_ver, "en seg")
+  print("El tiempo total aproximado del algoritmo ML-DSA: ", prom_firma+prom_ver, "en seg")
+  # Guardar los promedios en un archivo
+  with open("tiempos_ML-DSA.txt", "w") as f:
+        f.write(f"{prom_firma}\n")
+        f.write(f"{prom_ver}\n")
+        f.write(f"{prom_firma+prom_ver}\n")
