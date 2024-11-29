@@ -60,8 +60,8 @@ Para realizar la ejecución de los códigos deberá ejecutarse el siguiente coma
 ```bash
 python3 <codigo>
 ```
-Donde "<codigo>" debe sustituirse por los siguientes códigos:
+Donde codigo debe sustituirse por los siguientes códigos:
 - ml_kem.py
 - slh-dsa.py
-- ml-dsa.py
+- ml-dsa.py  
 _Nota:_ Para hacer uso de la llave de 768 bytes se presenta comentarios para cambios en el código original o esta el código  ml_kem_768.py  
