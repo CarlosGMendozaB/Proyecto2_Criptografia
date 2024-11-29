@@ -50,6 +50,18 @@ Activación del venv:
 ```bash  
 source ./proyecto_2/bin/activate
 ```
-
-
-
+### Instalación de bibliotecas.
+Dentro de los archivos que se clonaron del repositorio, se encuentra "library.sh", el cual contiene todas las bibliotecas y dependencias necesarias para nuestro proyecto. Este archivo tiene como objetivo instalar todas ellas de forma automatizada, de modo que debemos ejecutar el siguiente comando:  
+```bash
+sudo ./library.sh
+```
+### Ejecución de los código con los algoritmos:
+Para realizar la ejecución de los códigos deberá ejecutarse el siguiente comando:
+```bash
+python3 <codigo>
+```
+Donde <codigo> debe sustituirse por los siguientes códigos:
+- ml_kem.py
+- slh-dsa.py
+- ml-dsa.py
+* Nota: * Para hacer uso de la llave de 768 bytes se presenta comentarios para cambios en el código original o esta el código  ml_kem_768.py  
