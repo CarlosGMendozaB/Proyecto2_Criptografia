@@ -64,4 +64,10 @@ Donde codigo debe sustituirse por los siguientes códigos:
 - ml_kem.py
 - slh-dsa.py
 - ml-dsa.py  
-_Nota:_ Para hacer uso de la llave de 768 bytes se presenta comentarios para cambios en el código original o esta el código  ml_kem_768.py  
+_Nota:_ Para hacer uso de la llave de 768 bytes se presenta comentarios para cambios en el código original o esta el código  ml_kem_768.py
+
+### Salir del entorno virtual de Python
+Finalmente, tras haber ejecutado los códigos, se debe terminar la ejecución del entorno virtual. Lo anterior se hace con el siguiente comando:
+```bash
+deactivate
+```
