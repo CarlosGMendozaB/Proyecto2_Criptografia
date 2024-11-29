@@ -56,7 +56,7 @@ Dentro de los archivos que se clonaron del repositorio, se encuentra "library.sh
 sudo ./library.sh
 ```
 ### Ejecución del código para la matriz de vectores:
-Para poder ejecutar los algoritmos es necesario contar con una matriz que almacenará vectores de cadenas que serna la netrada de cada algoritmo
+Para poder ejecutar los algoritmos es necesario contar con una matriz que almacenará vectores de cadenas que sera la entrada de cada algoritmo.
 ```bash
 python3 vectores_matriz.py
 ```
