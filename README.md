@@ -18,7 +18,7 @@ sudo apt install git
 El siguiente paso es realizar una copia del repositorio en el equipo local haciendo uso de manejador de Git. 
 
 ```bash
-git clone https://github.com/CarlosGMendozaB/Proyecto2_Criptografia/tree/master
+git clone https://github.com/CarlosGMendozaB/Proyecto2_Criptografia
 ```
 Se accederá al Directorio del repositorio clonado anteriormente  
 ```bash
