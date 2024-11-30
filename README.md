@@ -9,6 +9,9 @@ Integrantes del equipo:
 * Villanueva Corona Miguel Angel  
 
 ## Proceso para la ejecución de los códigos.
+### Nota importante:
+Debe seleccionarse la rama master, ya que en ella se encuentra el contenido de este proyecto.
+
 ### Clonación del repositorio.
 Primeramente, se instala la herramienta de Git dentro de nuestro sistema, ya que nos permitirá extraer herramientas, así como los códigos involucrados del proyecto.  
 ```bash
